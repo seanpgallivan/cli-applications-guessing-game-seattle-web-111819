@@ -1,5 +1,3 @@
-
-
 def run_guessing_game
   target = (rand(6) + 1).to_s
   puts "Guess"
@@ -12,5 +10,3 @@ def run_guessing_game
     puts "Sorry! The computer guessed #{target}."
   end
 end
-
-
